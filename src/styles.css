@@ -1,0 +1,142 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif;
+}
+html{
+    background: #1C1C1C;
+}
+body{
+    background-color: #1A1B21;
+    width:317px;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*
+============================
+HeaderImage
+============================
+*/
+
+.header-image{
+    height:317px;
+    width:317px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
+
+/*
+============================
+Nav
+============================
+*/
+nav, main {
+    background-color: #1A1B21;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom:0;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+h5{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+h5 a {
+    text-decoration:none;
+    color: #F5F5F5;
+}
+.buttons{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:33px;
+}
+.email,
+.linkedin {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius:5px;
+}
+
+.email{
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    padding:10px 25px;
+    color: #374151;
+}
+.linkedin{
+    border: 1px solid #5093E2;
+    background: #5093E2;
+    padding: 10px 25px;
+    color: #FFFFFF;
+}
+
+.button-img{
+    width:16px;
+    height: 16px;
+    margin-right:10px;
+}
+
+/*
+============================
+Main
+============================
+*/
+
+main{
+    margin: 30px 30px 20px 30px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+main p{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+/*
+============================
+Footer
+============================
+*/
+
+footer{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    height:40px;
+    background: #161619;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+footer img{
+    width:20px;
+    height:20px;
+    margin: 0 auto;
+}
